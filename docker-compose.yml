@@ -2,7 +2,7 @@ version: '2'
 
 services:
   portainer:
-    image: portainer/portainer-ce:latest
+    image: portainer/portainer-ce:2.9.2-alpine
     ports:
       - "9000:9000"
     command: --admin-password '$$2y$$05$$stbv5sEWDiVpNIo06L65aeN2nJDBT3vr5hzVzEXOHxCFTa2WqUN9C'
